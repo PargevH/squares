@@ -1,0 +1,69 @@
+#draggable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.held {
+    border: solid 3px black;
+    background-color: black;
+}
+
+.holder {
+    display: inline-block;
+    height :100vh;
+    width: 100%;
+}
+
+.hovered {
+    border: dotted 5px black;
+}
+
+.invisible {
+    display: none;
+}
+
+#draggable1 {
+    background-color: #9fcdff;
+}
+
+#draggable2 {
+    background-color: #c66d75;
+}
+
+#draggable3 {
+    background-color: #b1dfbb;
+}
+
+#draggable4 {
+    background-color: #34ce57;
+}
+
+.content {
+    overflow:hidden;
+    text-align:center;
+    height: 90vh;
+}
+
+.squeres {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color:blue;
+    margin: 0 5px 5px 0;
+    display:inline-block;
+}
+
+.userName {
+    margin: 5px;
+}
